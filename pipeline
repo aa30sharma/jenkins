@@ -17,5 +17,10 @@ pipeline {
                     echo "the deployed the file"
                 }
             }
+                stage ('checking') {
+                    steps {
+                        echo "the checking the file"
+                    }
+                }
     }
 }
